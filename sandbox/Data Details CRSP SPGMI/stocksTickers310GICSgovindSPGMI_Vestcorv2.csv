@@ -1,0 +1,311 @@
+Ticker,Company Name,CIQ Company ID,CIQ Company Name,GICS code,GICS Descriptor,Start date,End Date
+AAN,AARONS INC,681042236,"The Aaron's Company, Inc.",25504060,Homefurnishing Retail,2020-12-02,NULL
+ABM,A B M INDUSTRIES INC,250079,ABM Industries Incorporated,20201050,Environmental & Facilities Services,2005-05-02,NULL
+ABT,ABBOTT LABORATORIES,247483,Abbott Laboratories,35101010,Health Care Equipment,2013-01-02,NULL
+ADBE,ADOBE INC,24321,Adobe Inc.,45103010,Application Software,2005-12-06,NULL
+ADI,ANALOG DEVICES INC,251411,"Analog Devices, Inc.",45301020,Semiconductors,2003-05-01,NULL
+ADM,ARCHER DANIELS MIDLAND CO,251704,Archer-Daniels-Midland Company,30202010,Agricultural Products,1997-01-16,NULL
+ADP,AUTOMATIC DATA PROCESSING INC,126269,"Automatic Data Processing, Inc.",45102020,Data Processing & Outsourced Services,2003-05-01,NULL
+AE,ADAMS RESOURCES & ENERGY INC,247978,"Adams Resources & Energy, Inc.",10102030,Oil & Gas Refining & Marketing,2007-11-30,NULL
+AEGN,AEGION CORP,280123,Aegion Corporation,20103010,Construction & Engineering,2001-09-04,2021-05-18
+AIN,ALBANY INTERNATIONAL CORP NEW,248608,Albany International Corp.,20106020,Industrial Machinery,1986-12-31,NULL
+AIT,APPLIED INDUSTRIAL TECHS INC,254679,"Applied Industrial Technologies, Inc.",20107010,Trading Companies & Distributors,2002-10-01,NULL
+ALCO,ALICO INC,248533,"Alico, Inc.",30202010,Agricultural Products,1985-08-31,NULL
+ALOG,ANALOGIC CORP,250788,Analogic Corporation,35101010,Health Care Equipment,2003-05-01,2018-06-26
+ALOT,ASTRONOVA INC,251995,"AstroNova, Inc.",45202030,"Technology Hardware, Storage & Peripherals",2014-03-01,NULL
+AMAT,APPLIED MATERIALS INC,251230,"Applied Materials, Inc.",45301010,Semiconductor Equipment,2003-05-01,NULL
+AMD,ADVANCED MICRO DEVICES INC,168864,"Advanced Micro Devices, Inc.",45301020,Semiconductors,2003-05-01,NULL
+AME,AMETEK INC NEW,31860,"AMETEK, Inc.",20104010,Electrical Components & Equipment,1985-12-31,NULL
+AMGN,AMGEN INC,24816,Amgen Inc.,35201010,Biotechnology,1986-03-31,NULL
+AMOT,ALLIED MOTION TECHNOLOGIES INC,177779,Allied Motion Technologies Inc.,20104010,Electrical Components & Equipment,2008-04-30,NULL
+AMWD,AMERICAN WOODMARK CORP,250549,American Woodmark Corporation,20102010,Building Products,1986-04-30,NULL
+AON,AON PLC NEW,119853,Aon plc,40301010,Insurance Brokers,1996-06-28,NULL
+AOS,SMITH A O CORP,997111,A. O. Smith Corporation,20102010,Building Products,2010-06-01,NULL
+APA,APACHE CORP,169838,APA Corporation,10102020,Oil & Gas Exploration & Production,1985-12-31,NULL
+APC,ANADARKO PETROLEUM CORP,251349,Anadarko Petroleum Corporation,10102020,Oil & Gas Exploration & Production,1985-12-31,2019-08-08
+APD,AIR PRODUCTS & CHEMICALS INC,248356,"Air Products and Chemicals, Inc.",15101040,Industrial Gases,1985-06-15,NULL
+APOG,APOGEE ENTERPRISES INC,251050,"Apogee Enterprises, Inc.",20102010,Building Products,1986-02-28,NULL
+ARG,AIRGAS INC,24504,"Airgas, Inc.",15101040,Industrial Gases,1986-03-31,2016-05-23
+ARKR,ARK RESTAURANTS CORP,251829,Ark Restaurants Corp.,25301040,Restaurants,1985-09-30,NULL
+ASEI,AMERICAN SCIENCE & ENGR INC,250710,"American Science and Engineering, Inc.",20101010,Aerospace & Defense,2007-06-29,2016-09-13
+ASH,ASHLAND GLOBAL HOLDINGS INC,252339,Ashland Global Holdings Inc.,15101050,Specialty Chemicals,2012-02-01,NULL
+ASNA,ASCENA RETAIL GROUP INC,267344,"Mahwah Bergen Retail Group, Inc.",25504010,Apparel Retail,1985-07-31,NULL
+ASTE,ASTEC INDUSTRIES INC,251951,"Astec Industries, Inc.",20106010,Construction Machinery & Heavy Trucks,2000-06-30,NULL
+ATRI,ATRION CORP,168945,Atrion Corporation,35101020,Health Care Supplies,1997-12-31,NULL
+ATW,ATWOOD OCEANICS INC,252257,"Atwood Oceanics, Inc.",10101010,Oil & Gas Drilling,1985-09-30,2017-11-15
+AVD,AMERICAN VANGUARD CORP,250532,American Vanguard Corporation,15101030,Fertilizers & Agricultural Chemicals,1985-07-31,NULL
+AVHI,A V HOMES INC,252551,"AV Homes, Inc.",25201030,Homebuilding,2017-02-01,2018-10-03
+AVP,AVON PRODUCTS INC,253132,"Avon Products, Inc.",30302010,Personal Products,1/2/1968,3/23/2021
+AVT,AVNET INC,253018,"Avnet, Inc.",45203030,Technology Distributors,2003-05-01,NULL
+AVY,AVERY DENNISON CORP,252978,Avery Dennison Corporation,15103020,Paper Packaging,2013-08-01,NULL
+AXE,ANIXTER INTERNATIONAL INC,281893,Anixter International Inc.,45203030,Technology Distributors,2003-05-01,2020-06-22
+AXLL,AXIALL CORP,177251,Axiall Corporation,15101010,Commodity Chemicals,1985-12-31,2016-08-31
+AZZ,A Z Z INC,252588,AZZ Inc.,20104020,Heavy Electrical Equipment,1992-02-29,NULL
+B,BARNES GROUP INC,254193,Barnes Group Inc.,20106020,Industrial Machinery,1993-12-31,NULL
+BA,BOEING CO,370857,The Boeing Company,20101010,Aerospace & Defense,1985-06-15,NULL
+BAX,BAXTER INTERNATIONAL INC,254571,Baxter International Inc.,35101010,Health Care Equipment,1985-06-15,NULL
+BC,BRUNSWICK CORP,171649,Brunswick Corporation,25202010,Leisure Products,1985-06-15,NULL
+BCPC,BALCHEM CORP,253076,Balchem Corporation,15101050,Specialty Chemicals,2001-12-31,NULL
+BCR,BARD C R INC,254131,"C. R. Bard, Inc.",35101010,Health Care Equipment,1985-06-15,2017-12-29
+BDX,BECTON DICKINSON & CO,103678,"Becton, Dickinson and Company",35101010,Health Care Equipment,1985-06-15,NULL
+BGG,BRIGGS & STRATTON CORP,256523,Briggs & Stratton Corporation,20106020,Industrial Machinery,1985-06-15,NULL
+BIG,BIG LOTS INC,26949,"Big Lots, Inc.",25503020,General Merchandise Stores,1986-01-31,NULL
+BLL,BALL CORP,170352,Ball Corporation,15103010,Metal & Glass Containers,1985-06-15,NULL
+BMI,BADGER METER INC,253478,"Badger Meter, Inc.",45203010,Electronic Equipment & Instruments,2011-11-01,NULL
+BMS,BEMIS CO INC,255132,Amcor Flexibles North America Inc.,15103020,Paper Packaging,1985-12-31,2019-06-11
+BMY,BRISTOL MYERS SQUIBB CO,25798,Bristol-Myers Squibb Company,35202010,Pharmaceuticals,1985-06-15,NULL
+BOBE,BOB EVANS FARMS INC,255524,"Bob Evans Farms, Inc.",30202030,Packaged Foods & Meats,2017-10-01,2018-01-16
+BOOM,D M C GLOBAL INC,34668,DMC Global Inc.,10101020,Oil & Gas Equipment & Services,2019-04-01,NULL
+BRC,BRADY CORP,171296,Brady Corporation,20201010,Commercial Printing,2014-05-01,NULL
+CA,C A INC,262913,"CA, Inc.",45103020,Systems Software,1986-03-31,2018-11-06
+CAG,CONAGRA BRANDS INC,26893,"Conagra Brands, Inc.",30202030,Packaged Foods & Meats,1985-06-15,NULL
+CAH,CARDINAL HEALTH INC,172207,"Cardinal Health, Inc.",35102010,Health Care Distributors,1986-03-31,NULL
+CAL,CALERES INC,256893,"Caleres, Inc.",25504010,Apparel Retail,2007-03-01,NULL
+CASY,CASEYS GENERAL STORES INC,258629,"Casey's General Stores, Inc.",30101030,Food Retail,1986-04-30,NULL
+CAT,CATERPILLAR INC,259378,Caterpillar Inc.,20106010,Construction Machinery & Heavy Trucks,1985-06-15,NULL
+CATO,CATO CORP NEW,258697,The Cato Corporation,25504010,Apparel Retail,1986-01-31,NULL
+CBB,CINCINNATI BELL INC NEW,168151,Cincinnati Bell Inc.,50101020,Integrated Telecommunication Services,1985-12-31,2021-09-07
+CBM,CAMBREX CORP,258332,Cambrex Corporation,35203010,Life Sciences Tools & Services,2006-05-01,2019-12-04
+CBRL,CRACKER BARREL OLD COUNTRY STORE,264897,"Cracker Barrel Old Country Store, Inc.",25301040,Restaurants,1985-07-31,NULL
+CCF,CHASE CORP,172593,Chase Corporation,15101050,Specialty Chemicals,2010-05-31,NULL
+CDNS,CADENCE DESIGN SYSTEMS INC,25941,"Cadence Design Systems, Inc.",45103010,Application Software,1986-12-31,NULL
+CELG,CELGENE CORP,258769,Celgene Corporation,35201010,Biotechnology,1986-12-31,2019-11-21
+CERN,CERNER CORP,259627,Cerner Corporation,35103010,Health Care Technology,2006-05-01,NULL
+CHD,CHURCH & DWIGHT INC,261105,"Church & Dwight Co., Inc.",30301010,Household Products,1985-12-31,NULL
+CHDN,CHURCHILL DOWNS INC,260619,Churchill Downs Incorporated,25301010,Casinos & Gaming,1986-01-31,NULL
+CHE,CHEMED CORP NEW,260583,Chemed Corporation,35102015,Health Care Services,2004-04-01,NULL
+CL,COLGATE PALMOLIVE CO,262247,Colgate-Palmolive Company,30301010,Household Products,1985-06-15,NULL
+CLC,CLARCOR INC,261326,CLARCOR Inc.,20106020,Industrial Machinery,1985-11-30,2017-02-28
+CLH,CLEAN HARBORS INC,26565,"Clean Harbors, Inc.",20201050,Environmental & Facilities Services,1987-02-28,NULL
+CLX,CLOROX CO,89450,The Clorox Company,30301010,Household Products,1985-06-15,NULL
+CMTL,COMTECH TELECOMMUNICATIONS CORP,262961,Comtech Telecommunications Corp.,45201020,Communications Equipment,1985-07-31,NULL
+CNMD,CONMED CORP,263232,CONMED Corporation,35101010,Health Care Equipment,1986-12-31,NULL
+COG,CABOT OIL & GAS CORP,258181,Coterra Energy Inc.,10102020,Oil & Gas Exploration & Production,1989-09-30,NULL
+COHU,COHU INC,262125,"Cohu, Inc.",45301010,Semiconductor Equipment,2003-05-01,NULL
+COP,CONOCOPHILLIPS,296527,ConocoPhillips,10102020,Oil & Gas Exploration & Production,2012-05-01,NULL
+CRS,CARPENTER TECHNOLOGY CORP,258937,Carpenter Technology Corporation,15104050,Steel,1985-06-30,NULL
+CRUS,CIRRUS LOGIC INC,26515,"Cirrus Logic, Inc.",45301020,Semiconductors,2003-05-01,NULL
+CSCO,CISCO SYSTEMS INC,19691,"Cisco Systems, Inc.",45201020,Communications Equipment,2003-05-01,NULL
+CSH,CASH AMERICA INTERNATIONAL INC,259171,"Cash America International, Inc.",40202010,Consumer Finance,1/29/1987,9/2/2016
+CSL,CARLISLE COMPANIES,258791,Carlisle Companies Incorporated,20102010,Building Products,2021-08-01,NULL
+CSX,C S X CORP,257948,CSX Corporation,20304010,Railroads,1985-06-15,NULL
+CTAS,CINTAS CORP,260725,Cintas Corporation,20201070,Diversified Support Services,2008-09-02,NULL
+CTB,COOPER TIRE & RUBBER CO,263686,Cooper Tire & Rubber Company,25101020,Tires & Rubber,1985-12-31,2021-06-07
+CTS,C T S CORP,258010,CTS Corporation,45203020,Electronic Manufacturing Services,1/2/1968,NA
+CTWS,CONNECTICUT WATER SERVICE INC,263264,"Connecticut Water Service, Inc.",55104010,Water Utilities,1985-12-31,2019-10-10
+CUB,CUBIC CORP,265154,Cubic Corporation,20101010,Aerospace & Defense,1985-09-30,2021-05-25
+CVX,CHEVRON CORP NEW,98506,Chevron Corporation,10102010,Integrated Oil & Gas,1985-06-15,NULL
+CW,CURTISS WRIGHT CORP,265386,Curtiss-Wright Corporation,20101010,Aerospace & Defense,1985-12-31,NULL
+CWT,CALIFORNIA WATER SERVICE GROUP,257568,California Water Service Group,55104010,Water Utilities,1985-12-31,NULL
+CY,CYPRESS SEMICONDUCTOR CORP,27307,Cypress Semiconductor Corporation,45301020,Semiconductors,2003-05-01,2020-04-17
+DBD,DIEBOLD NIXDORF INC,266767,"Diebold Nixdorf, Incorporated",45202030,"Technology Hardware, Storage & Peripherals",2014-03-03,NULL
+DDS,DILLARDS INC,266847,"Dillard's, Inc.",25503010,Department Stores,1986-01-31,NULL
+DE,DEERE & CO,266112,Deere & Company,20106015,Agricultural & Farm Machinery,2014-03-03,NULL
+DHR,DANAHER CORP,265621,Danaher Corporation,35203010,Life Sciences Tools & Services,2021-11-01,NULL
+DLX,DELUXE CORP,266430,Deluxe Corporation,20201010,Commercial Printing,2005-04-01,NULL
+DOV,DOVER CORP,174901,Dover Corporation,20106020,Industrial Machinery,1985-10-01,NULL
+DOW,DOW CHEMICAL CO,327097967,The Dow Chemical Company,15101050,Specialty Chemicals,-,-
+DXYN,DIXIE GROUP INC,266937,"The Dixie Group, Inc.",25201020,Home Furnishings,1994-10-01,NULL
+DY,DYCOM INDUSTRIES INC,268141,"Dycom Industries, Inc.",20103010,Construction & Engineering,2008-06-02,NULL
+EA,ELECTRONIC ARTS INC,27963,Electronic Arts Inc.,50202020,Interactive Home Entertainment,2018-10-01,NULL
+EAT,BRINKER INTERNATIONAL INC,260858,"Brinker International, Inc.",25301040,Restaurants,1985-06-30,NULL
+ECOL,U S ECOLOGY INC NEW,249726,"US Ecology, Inc.",20201050,Environmental & Facilities Services,1985-12-31,NULL
+EFX,EQUIFAX INC,175749,Equifax Inc.,20202020,Research & Consulting Services,2008-09-02,NULL
+EMC,E M C CORP MA,108715889,DELL EMC,45202030,"Technology Hardware, Storage & Peripherals",2014-03-01,2016-09-07
+EMR,EMERSON ELECTRIC CO,269231,Emerson Electric Co.,20104010,Electrical Components & Equipment,1985-06-15,NULL
+EOG,EOG RESOURCES INC,269660,"EOG Resources, Inc.",10102020,Oil & Gas Exploration & Production,1989-12-31,NULL
+ESIO,ELECTRO SCIENTIFIC INDS INC,268713,"Electro Scientific Industries, Inc.",45203010,Electronic Equipment & Instruments,2002-07-01,2019-02-07
+ESL,ESTERLINE TECHNOLOGIES CORP,270315,Esterline Technologies Corporation,20101010,Aerospace & Defense,2002-10-01,2019-03-14
+ESND,ESSENDANT INC,36012,Essendant Inc.,20201060,Office Services & Supplies,1998-12-31,2019-02-01
+ETN,EATON CORP PLC,175265,Eaton Corporation plc,20104010,Electrical Components & Equipment,2012-12-03,NULL
+EXPD,EXPEDITORS INTERNATIONAL WA INC,270071,"Expeditors International of Washington, Inc.",20301010,Air Freight & Logistics,1985-12-31,NULL
+FAST,FASTENAL COMPANY,270747,Fastenal Company,20107010,Trading Companies & Distributors,1995-12-01,NULL
+FDX,FEDEX CORP,124423,FedEx Corporation,20301010,Air Freight & Logistics,1985-06-15,NULL
+FELE,FRANKLIN ELECTRIC INC,273729,"Franklin Electric Co., Inc.",20106020,Industrial Machinery,2016-05-01,NULL
+FISV,FISERV INC,128209,"Fiserv, Inc.",45102020,Data Processing & Outsourced Services,2003-05-01,NULL
+FL,FOOT LOCKER INC,315394,"Foot Locker, Inc.",25504010,Apparel Retail,2003-07-31,NULL
+FLS,FLOWSERVE CORP,267555,Flowserve Corporation,20106020,Industrial Machinery,1985-12-31,NULL
+FLXS,FLEXSTEEL INDUSTRIES INC,273056,"Flexsteel Industries, Inc.",25201020,Home Furnishings,1985-06-30,NULL
+FMC,F M C CORP,28606,FMC Corporation,15101030,Fertilizers & Agricultural Chemicals,2015-08-01,NULL
+FOE,FERRO CORP,176102,Ferro Corporation,15101050,Specialty Chemicals,1985-12-31,NULL
+FUL,FULLER H B CO,273981,H.B. Fuller Company,15101050,Specialty Chemicals,1985-11-30,NULL
+GD,GENERAL DYNAMICS CORP,274561,General Dynamics Corporation,20101010,Aerospace & Defense,1985-06-15,NULL
+GEF,GREIF INC,377361,"Greif, Inc.",15103010,Metal & Glass Containers,1985-10-31,NULL
+GGG,GRACO INC,29113,Graco Inc.,20106020,Industrial Machinery,1985-12-31,NULL
+GHC,GRAHAM HOLDINGS CO,91675,Graham Holdings Company,25302010,Education Services,2014-01-02,NULL
+GHM,GRAHAM CORP,177455,Graham Corporation,20106020,Industrial Machinery,1985-12-31,NULL
+GIII,G III APPAREL GROUP INC,274166,"G-III Apparel Group, Ltd.",25203010,"Apparel, Accessories & Luxury Goods",1989-07-31,NULL
+GIS,GENERAL MILLS INC,274715,"General Mills, Inc.",30202030,Packaged Foods & Meats,1985-06-15,NULL
+GNCMA,G C I LIBERTY INC,215858913,"GCI Liberty, Inc.",50101010,Alternative Carriers,2019-07-01,2020-12-21
+GNTX,GENTEX CORP,274926,Gentex Corporation,25101010,Auto Parts & Equipment,1985-12-31,NULL
+GPC,GENUINE PARTS CO,275034,Genuine Parts Company,25501010,Distributors,2002-11-01,NULL
+GPS,GAP INC,274265,"The Gap, Inc.",25504010,Apparel Retail,1990-06-06,NULL
+GPX,G P STRATEGIES CORP,291003,GP Strategies Corporation,20202010,Human Resource & Employment Services,1/2/1968,NA
+GRC,GORMAN RUPP CO,275858,The Gorman-Rupp Company,20106020,Industrial Machinery,1985-12-31,NULL
+GWW,GRAINGER W W INC,276060,"W.W. Grainger, Inc.",20107010,Trading Companies & Distributors,1996-06-28,NULL
+HAR,HARMAN INTL INDS INC NEW,410154,Harmony Gold Mining Company Limited,15104030,Gold,1995-06-30,NULL
+HAS,HASBRO INC,277746,"Hasbro, Inc.",25202010,Leisure Products,1985-06-15,NULL
+HD,HOME DEPOT INC,278679,"The Home Depot, Inc.",25504030,Home Improvement Retail,1986-01-31,NULL
+HELE,HELEN OF TROY LTD,277500,Helen of Troy Limited,25201040,Household Appliances,1986-02-28,NULL
+HES,HESS CORP,249841,Hess Corporation,10102020,Oil & Gas Exploration & Production,2015-04-01,NULL
+HFC,HOLLYFRONTIER CORP,178254,HollyFrontier Corporation,10102030,Oil & Gas Refining & Marketing,1985-07-31,NULL
+HL,HECLA MINING CO,278111,Hecla Mining Company,15104045,Silver,2014-03-01,NULL
+HNGR,HANGER INC,29272,"Hanger, Inc.",35102020,Health Care Facilities,1999-05-24,NULL
+HOLX,HOLOGIC INC,108544,"Hologic, Inc.",35101010,Health Care Equipment,1989-09-30,NULL
+HON,HONEYWELL INTERNATIONAL INC,1340740,Honeywell International Inc.,20105010,Industrial Conglomerates,2016-09-01,NULL
+HP,HELMERICH & PAYNE INC,278341,"Helmerich & Payne, Inc.",10101010,Oil & Gas Drilling,1985-09-30,NULL
+HPQ,H P INC,108856,HP Inc.,45202030,"Technology Hardware, Storage & Peripherals",2014-03-03,NULL
+HRB,BLOCK H & R INC,276601,"H&R Block, Inc.",25302020,Specialized Consumer Services,2005-05-02,NULL
+HRL,HORMEL FOODS CORP,279042,Hormel Foods Corporation,30202030,Packaged Foods & Meats,1985-10-31,NULL
+HSC,HARSCO CORP,277575,Harsco Corporation,20201050,Environmental & Facilities Services,2020-01-01,NULL
+HSY,HERSHEY CO,98873,The Hershey Company,30202030,Packaged Foods & Meats,1985-06-15,NULL
+HTLD,HEARTLAND EXPRESS INC,277383,"Heartland Express, Inc.",20304020,Trucking,1985-12-31,NULL
+HWKN,HAWKINS INC,277171,"Hawkins, Inc.",15101010,Commodity Chemicals,1985-09-30,NULL
+HWM,HOWMET AEROSPACE INC,416264458,Howmet Aerospace Inc.,20101010,Aerospace & Defense,2016-11-01,NULL
+IBM,INTERNATIONAL BUSINESS MACHS COR,112350,International Business Machines Corporation,45102010,IT Consulting & Other Services,2010-05-03,NULL
+IDTI,INTEGRATED DEVICE TECHNOLOGY,518807,Renesas Electronics America Inc.,45301020,Semiconductors,2003-05-01,2019-04-01
+IEP,ICAHN ENTERPRISES L P,250592,Icahn Enterprises L.P.,20105010,Industrial Conglomerates,2014-11-05,NULL
+IEX,IDEX CORP,29728,IDEX Corporation,20106020,Industrial Machinery,1988-12-31,NULL
+IFF,INTERNATIONAL FLAVORS & FRAG INC,281407,International Flavors & Fragrances Inc.,15101050,Specialty Chemicals,1996-06-28,NULL
+IIVI,II VI INC,309779,II-VI Incorporated,45203015,Electronic Components,2014-04-01,NULL
+INTC,INTEL CORP,21127,Intel Corporation,45301020,Semiconductors,2003-05-01,NULL
+IP,INTERNATIONAL PAPER CO,61036,International Paper Company,15103020,Paper Packaging,2016-01-01,NULL
+ITT,I T T INC,280322,ITT Inc.,20106020,Industrial Machinery,2011-11-01,NULL
+ITW,ILLINOIS TOOL WORKS INC,280561,Illinois Tool Works Inc.,20106020,Industrial Machinery,1985-12-31,NULL
+J,JACOBS ENGINEERING GROUP INC,282159,Jacobs Engineering Group Inc.,20202020,Research & Consulting Services,2021-03-01,NULL
+JBHT,HUNT J B TRANSPORT SERVICES INC,278576,"J.B. Hunt Transport Services, Inc.",20304020,Trucking,2004-10-01,NULL
+JCI,JOHNSON CONTROLS INTL PLC,282590,Johnson Controls International plc,20102010,Building Products,2016-10-28,NULL
+JJSF,J & J SNACK FOODS CORP,281651,J & J Snack Foods Corp.,30202030,Packaged Foods & Meats,1985-09-30,NULL
+JKHY,HENRY JACK & ASSOC INC,277617,"Jack Henry & Associates, Inc.",45102020,Data Processing & Outsourced Services,2010-12-01,NULL
+JNJ,JOHNSON & JOHNSON,139677,Johnson & Johnson,35202010,Pharmaceuticals,1985-06-15,NULL
+JOUT,JOHNSON OUTDOORS INC,282032,Johnson Outdoors Inc.,25202010,Leisure Products,1986-06-30,NULL
+JWN,NORDSTROM INC,32215,"Nordstrom, Inc.",25503010,Department Stores,1987-01-07,NULL
+K,KELLOGG CO,283356,Kellogg Company,30202030,Packaged Foods & Meats,1985-06-15,NULL
+KAMN,KAMAN CORP,282415,Kaman Corporation,20101010,Aerospace & Defense,2020-07-01,NULL
+KBH,K B HOME,283234,KB Home,25201030,Homebuilding,1985-11-30,NULL
+KLAC,K L A CORP,282225,KLA Corporation,45301010,Semiconductor Equipment,2003-05-01,NULL
+KLIC,KULICKE & SOFFA INDS INC,283588,"Kulicke and Soffa Industries, Inc.",45301010,Semiconductor Equipment,2003-05-01,NULL
+KMB,KIMBERLY CLARK CORP,283857,Kimberly-Clark Corporation,30301010,Household Products,1994-12-07,NULL
+KMT,KENNAMETAL INC,283484,Kennametal Inc.,20106020,Industrial Machinery,1985-06-30,NULL
+KO,COCA COLA CO,26642,The Coca-Cola Company,30201030,Soft Drinks,1985-06-15,NULL
+KR,KROGER COMPANY,284342,The Kroger Co.,30101030,Food Retail,1985-06-15,NULL
+KSU,KANSAS CITY SOUTHERN,30472,Kansas City Southern,20304010,Railroads,1985-12-31,NULL
+LABL,MULTI COLOR CORP,289484,Multi-Color Corporation,20201010,Commercial Printing,1987-03-31,2019-07-02
+LB,L BRANDS INC,285544,"Bath & Body Worls, Inc.",25504040,Specialty Stores,2/9/1973,NULL
+LCII,L C I INDUSTRIES,267368,LCI Industries,25101010,Auto Parts & Equipment,1994-12-31,NULL
+LDL,LYDALL INC,20354344,Groupe LDLC société anonyme,25502020,Internet & Direct Marketing Retail,2005-08-31,NULL
+LDR,LANDAUER INC,711292079,Lode Resources Ltd,15104020,Diversified Metals & Mining,2021-04-29,NULL
+LEG,LEGGETT & PLATT INC,30760,"Leggett & Platt, Incorporated",25201020,Home Furnishings,1985-12-31,NULL
+LEN,LENNAR CORP,30763,Lennar Corporation,25201030,Homebuilding,1985-11-30,NULL
+LLTC,LINEAR TECHNOLOGY CORP,30843,Linear Technology Corporation,45301020,Semiconductors,2003-05-01,2017-03-13
+LLY,LILLY ELI & CO,285467,Eli Lilly and Company,35202010,Pharmaceuticals,1985-06-15,NULL
+LMT,LOCKHEED MARTIN CORP,285827,Lockheed Martin Corporation,20101010,Aerospace & Defense,1985-06-15,NULL
+LNCE,SNYDERS LANCE INC,180017,"Snyder's-Lance, Inc.",30202030,Packaged Foods & Meats,1985-12-31,2018-03-27
+LNN,LINDSAY CORP,285016,Lindsay Corporation,20106015,Agricultural & Farm Machinery,2014-03-03,NULL
+LOW,LOWES COMPANIES INC,180871,"Lowe's Companies, Inc.",25504030,Home Improvement Retail,1985-06-15,NULL
+LRCX,LAM RESH CORP,30655,Lam Research Corporation,45301010,Semiconductor Equipment,2003-05-01,NULL
+LUMN,CENTURYLINK INC,260149,"Lumen Technologies, Inc.",50101010,Alternative Carriers,2017-10-12,NULL
+LUV,SOUTHWEST AIRLINES CO,31726,Southwest Airlines Co.,20302010,Airlines,1985-12-31,NULL
+MAS,MASCO CORP,181478,Masco Corporation,20102010,Building Products,1985-06-15,NULL
+MAT,MATTEL INC,31197,"Mattel, Inc.",25202010,Leisure Products,1985-06-15,NULL
+MATX,MATSON INC,248450,"Matson, Inc.",20303010,Marine,1985-12-31,NULL
+MCD,MCDONALDS CORP,139488,McDonald's Corporation,25301040,Restaurants,1985-06-15,NULL
+MCS,MARCUS CORP,180950,The Marcus Corporation,50202010,Movies & Entertainment,2018-10-01,NULL
+MDC,M D C HOLDINGS INC,181003,"M.D.C. Holdings, Inc.",25201030,Homebuilding,1985-12-31,NULL
+MENT,MENTOR GRAPHICS CORP,31380,Mentor Graphics Corporation,45103010,Application Software,1985-12-31,2017-03-31
+MERC,MERCER INTERNATIONAL INC,251849,Mercer International Inc.,15105020,Paper Products,1993-12-31,NULL
+MKC,MCCORMICK & CO INC,181176,"McCormick & Company, Incorporated",30202030,Packaged Foods & Meats,1985-11-30,NULL
+MLHR,MILLER HERMAN INC,31089912,Miller Herman Workplace Resource,20201060,Office Services & Supplies,1986-05-31,NULL
+MMM,3M CO,289194,3M Company,20105010,Industrial Conglomerates,1985-06-15,NULL
+MO,ALTRIA GROUP INC,296308,"Altria Group, Inc.",30203010,Tobacco,1985-06-15,NULL
+MOD,MODINE MANUFACTURING CO,288838,Modine Manufacturing Company,25101010,Auto Parts & Equipment,1986-03-31,NULL
+MRK,MERCK & CO INC NEW,288502,"Merck & Co., Inc.",35202010,Pharmaceuticals,1985-06-15,NULL
+MSEX,MIDDLESEX WATER CO,288070,Middlesex Water Company,55104010,Water Utilities,1985-12-31,NULL
+MSI,MOTOROLA SOLUTIONS INC,99186,"Motorola Solutions, Inc.",45201020,Communications Equipment,1996-06-28,NULL
+MTRN,MATERION CORP,256977,Materion Corporation,15104020,Diversified Metals & Mining,1985-12-31,NULL
+MTSC,M T S SYSTEMS CORP,137411,MTS Systems Corporation,45203010,Electronic Equipment & Instruments,1985-09-30,2021-04-08
+MTW,MANITOWOC CO INC,286163,"The Manitowoc Company, Inc.",20106010,Construction Machinery & Heavy Trucks,2005-05-02,NULL
+MUR,MURPHY OIL CORP,290060,Murphy Oil Corporation,10102020,Oil & Gas Exploration & Production,2013-09-03,NULL
+MYE,MYERS INDUSTRIES INC,290177,"Myers Industries, Inc.",15103010,Metal & Glass Containers,1987-12-31,NULL
+MYL,MYLAN N V,290203,Viatris Inc.,35202010,Pharmaceuticals,2/23/1973,11/13/2020
+NBL,NOBLE ENERGY INC,292135,"Noble Energy, Inc.",10102020,Oil & Gas Exploration & Production,12/14/1972,10/14/2020
+NEM,NEWMONT CORP,291795,Newmont Corporation,15104030,Gold,1987-05-20,NULL
+NEOG,NEOGEN CORP,339683,Neogen Corporation,35101020,Health Care Supplies,2005-05-31,NULL
+NEWP,NEWPORT CORP,95164,Newport Corp.,45203010,Electronic Equipment & Instruments,1985-07-31,2016-05-03
+NKE,NIKE INC,291981,"NIKE, Inc.",25203020,Footwear,1986-05-31,NULL
+NLOK,NORTONLIFELOCK INC,35000,NortonLifeLock Inc.,45103020,Systems Software,1989-03-31,NULL
+NOC,NORTHROP GRUMMAN CORP,97199,Northrop Grumman Corporation,20101010,Aerospace & Defense,1985-06-15,NULL
+NSC,NORFOLK SOUTHERN CORP,292268,Norfolk Southern Corporation,20304010,Railroads,1985-06-15,NULL
+NUE,NUCOR CORP,184945,Nucor Corporation,15104050,Steel,1985-06-15,NULL
+NWL,NEWELL BRANDS INC,291703,Newell Brands Inc.,25201050,Housewares & Specialties,1985-12-31,NULL
+OMC,OMNICOM GROUP INC,96161,Omnicom Group Inc.,50201010,Advertising,2018-10-01,NULL
+OMI,OWENS & MINOR INC NEW,294382,"Owens & Minor, Inc.",35102010,Health Care Distributors,1985-12-31,NULL
+OSK,OSHKOSH CORP,294167,Oshkosh Corporation,20106010,Construction Machinery & Heavy Trucks,1985-09-30,NULL
+OXY,OCCIDENTAL PETROLEUM CORP,293286,Occidental Petroleum Corporation,10102010,Integrated Oil & Gas,1985-06-15,NULL
+PBI,PITNEY BOWES INC,297018,Pitney Bowes Inc.,20201060,Office Services & Supplies,1985-06-15,NULL
+PCAR,PACCAR INC,294721,PACCAR Inc,20106010,Construction Machinery & Heavy Trucks,1985-06-15,NULL
+PCP,PRECISION CASTPARTS CORP,33627,RathGibson LLC,20106020,Industrial Machinery,2006-06-08,2014-04-23
+PDCE,P D C ENERGY INC,296104,"PDC Energy, Inc.",10102020,Oil & Gas Exploration & Production,2001-12-31,NULL
+PEP,PEPSICO INC,32854,"PepsiCo, Inc.",30201030,Soft Drinks,1985-06-15,NULL
+PFE,PFIZER INC,162270,Pfizer Inc.,35202010,Pharmaceuticals,1985-06-15,NULL
+PG,PROCTER & GAMBLE CO,33328,The Procter & Gamble Company,30301010,Household Products,1985-06-15,NULL
+PII,POLARIS INC,297441,Polaris Inc.,25202010,Leisure Products,1987-12-31,NULL
+PIR,PIER 1 IMPORTS INC,296889,"Pier 1 Imports, Inc.",25504060,Homefurnishing Retail,1/6/1971,10/12/2020
+PKE,PARK AEROSPACE CORP,295050,Park Aerospace Corp.,20101010,Aerospace & Defense,2019-08-01,NULL
+PKI,PERKINELMER INC,268363,"PerkinElmer, Inc.",35203010,Life Sciences Tools & Services,2006-05-01,NULL
+PLXS,PLEXUS CORP,102348,Plexus Corp.,45203020,Electronic Manufacturing Services,2003-05-01,NULL
+PNR,PENTAIR PLC,295688,Pentair plc,20106020,Industrial Machinery,1991-06-01,NULL
+POWL,POWELL INDUSTRIES INC,297711,"Powell Industries, Inc.",20104010,Electrical Components & Equipment,1985-10-31,NULL
+R,RYDER SYSTEMS INC,33956,"Ryder System, Inc.",20304020,Trucking,2006-05-01,NULL
+RBC,REGAL BELOIT CORP,299702,Regal Rexnord Corporation,20104010,Electrical Components & Equipment,2002-07-01,NULL
+RDC,ROWAN COMPANIES PLC,300794,Rowan Companies Limited,10101010,Oil & Gas Drilling,1985-06-15,2019-04-11
+RES,R P C INC,188005,"RPC, Inc.",10101020,Oil & Gas Equipment & Services,2000-12-31,NULL
+RGR,STURM RUGER & CO INC,305647,"Sturm, Ruger & Company, Inc.",25202010,Leisure Products,1985-12-31,NULL
+ROST,ROSS STORES INC,33926,"Ross Stores, Inc.",25504010,Apparel Retail,2001-09-04,NULL
+RTN,RAYTHEON CO,105612,Raytheon Company,20101010,Aerospace & Defense,1/2/1968,4/2/2020
+RTX,RAYTHEON TECHNOLOGIES CORP,159230,Raytheon Tecnologies Corporation,20101010,Aerospace & Defense,1/2/1968,NA
+SAFM,SANDERSON FARMS INC,301820,"Sanderson Farms, Inc.",30202030,Packaged Foods & Meats,2002-03-29,NULL
+SCL,STEPAN CO,305102,Stepan Company,15101050,Specialty Chemicals,1985-12-31,NULL
+SEE,SEALED AIR CORP NEW,382724,Sealed Air Corporation,15103020,Paper Packaging,1985-12-31,NULL
+SHW,SHERWIN WILLIAMS CO,303104,The Sherwin-Williams Company,15101050,Specialty Chemicals,2010-06-01,NULL
+SJM,SMUCKER J M CO,303591,The J. M. Smucker Company,30202030,Packaged Foods & Meats,1986-04-30,NULL
+SKYW,SKYWEST INC,303803,"SkyWest, Inc.",20302010,Airlines,1986-03-31,NULL
+SLB,SCHLUMBERGER LTD,301966,Schlumberger Limited,10101020,Oil & Gas Equipment & Services,1985-06-15,NULL
+SMP,STANDARD MOTOR PRODUCTS INC,304714,"Standard Motor Products, Inc.",25101010,Auto Parts & Equipment,1985-12-31,NULL
+SNA,SNAP ON INC,303646,Snap-on Incorporated,20106020,Industrial Machinery,2009-10-01,NULL
+SPLS,STAPLES INC,34740,"Staples, Inc.",25504040,Specialty Stores,1989-04-30,2017-10-16
+SPXC,S P X CORP,274818,SPX Corporation,20106020,Industrial Machinery,2001-05-25,NULL
+STJ,ST JUDE MEDICAL INC,301667,"St. Jude medical, Inc.",35101010,Health Care Equipment,2/9/1977,1/4/2017
+SUP,SUPERIOR INDUSTRIES INTL INC,306072,"Superior Industries International, Inc.",25101010,Auto Parts & Equipment,1985-12-31,NULL
+SWK,STANLEY BLACK & DECKER INC,304977,"Stanley Black & Decker, Inc.",20106020,Industrial Machinery,2011-06-01,NULL
+SWKS,SKYWORKS SOLUTIONS INC,1462309,"Skyworks Solutions, Inc.",45301020,Semiconductors,2003-05-01,NULL
+SXI,STANDEX INTERNATIONAL CORP,304857,Standex International Corporation,20106020,Industrial Machinery,2013-02-01,NULL
+SYK,STRYKER CORP,94614,Stryker Corporation,35101010,Health Care Equipment,1985-12-31,NULL
+SYY,SYSCO CORP,189096,Sysco Corporation,30101020,Food Distributors,1985-06-30,NULL
+T,A T & T INC,100231,AT&T Inc.,50101020,Integrated Telecommunication Services,1985-06-15,NULL
+TAP,MOLSON COORS BEVERAGE CO,263765,Molson Coors Beverage Company,30201010,Brewers,1985-06-15,NULL
+TG,TREDEGAR CORP,189282,Tredegar Corporation,15101010,Commodity Chemicals,2011-12-01,NULL
+TGNA,TEGNA INC,20571,TEGNA Inc.,50201020,Broadcasting,2018-10-01,NULL
+THC,TENET HEALTHCARE CORP,107911,Tenet Healthcare Corporation,35102020,Health Care Facilities,1985-06-15,NULL
+TIF,TIFFANY & CO NEW,35576,Tiffany & Co.,25504040,Specialty Stores,1987-01-31,2021-01-07
+TSN,TYSON FOODS INC,190636,"Tyson Foods, Inc.",30202030,Packaged Foods & Meats,2002-04-01,NULL
+TSS,TOTAL SYSTEM SERVICES INC,308973,"Total System Services, Inc.",45102020,Data Processing & Outsourced Services,8/10/1983,9/18/2019
+TT,TRANE TECHNOLOGIES PLC,280944,Trane Technologies plc,20102010,Building Products,2020-03-03,NULL
+TTI,TETRA TECHNOLOGIES INC,35290,"TETRA Technologies, Inc.",10101020,Oil & Gas Equipment & Services,2000-09-01,NULL
+TXN,TEXAS INSTRUMENTS INC,140283,Texas Instruments Incorporated,45301020,Semiconductors,2003-05-01,NULL
+UHS,UNIVERSAL HEALTH SERVICES INC,36040,"Universal Health Services, Inc.",35102020,Health Care Facilities,1985-12-31,NULL
+UNF,UNIFIRST CORP,309966,UniFirst Corporation,20201070,Diversified Support Services,2010-08-02,NULL
+UNP,UNION PACIFIC CORP,310078,Union Pacific Corporation,20304010,Railroads,1985-06-15,NULL
+UNT,UNIT CORP,216596631,Unimot S.A.,10102040,Oil & Gas Storage & Transportation,2014-06-27,NULL
+UVV,UNIVERSAL CORPORATION,191216,Universal Corporation,30203010,Tobacco,1996-07-01,NULL
+VAR,VARIAN MEDICAL SYSTEMS INC,311907,"Varian Medical systems, Inc.",35101010,Health Care Equipment,1/2/1968,NA
+VFC,V F CORP,191328,V.F. Corporation,25203010,"Apparel, Accessories & Luxury Goods",1985-06-15,NULL
+VMC,VULCAN MATERIALS CO,312769,Vulcan Materials Company,15102010,Construction Materials,1985-12-31,NULL
+VZ,VERIZON COMMUNICATIONS INC,415798,Verizon Communications Inc.,50101020,Integrated Telecommunication Services,1985-06-15,NULL
+WDFC,WD 40 CO,312452,WD-40 Company,30301010,Household Products,2001-09-04,NULL
+WGO,WINNEBAGO INDUSTRIES INC,314960,"Winnebago Industries, Inc.",25102010,Automobile Manufacturers,1985-08-31,NULL
+WHR,WHIRLPOOL CORP,314515,Whirlpool Corporation,25201040,Household Appliances,1985-06-15,NULL
+WMT,WALMART INC,313055,Walmart Inc.,30101040,Hypermarkets & Super Centers,2003-05-01,NULL
+WTS,WATTS WATER TECHNOLOGIES INC,313108,"Watts Water Technologies, Inc.",20106020,Industrial Machinery,1986-06-30,NULL
+WY,WEYERHAEUSER CO,107633,Weyerhaeuser Company,60101080,Specialized REITs,2016-09-01,NULL
+XOM,EXXON MOBIL CORP,406338,Exxon Mobil Corporation,10102010,Integrated Oil & Gas,1985-06-15,NULL
