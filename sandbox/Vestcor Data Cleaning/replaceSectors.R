@@ -17,3 +17,4 @@ stocksTickers310$Sector <- gics$SectorName[match(substr(stocksTickers310$GICS.co
 
 # next match new sector data in stocksTickers... to data in factorsSPGMIVestcor
 factorsSPGMIvestcor$Sector <- stocksTickers310$Sector[match(factorsSPGMIvestcor$TickerLast,stocksTickers310$Ticker)]
+factorsSPGMIvestcor$GICS <- stocksTickers310$GICS.code[match(factorsSPGMIvestcor$TickerLast,stocksTickers310$Ticker)]
