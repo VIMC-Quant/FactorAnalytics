@@ -50,8 +50,9 @@ to_weekly = function(daily, days_in_week = 5,
   n_future_years <- 365*1000
   all_days <- seq.Date(from = as.Date('1900-01-01'), length.out = n_future_years*7, by = '1 day')
   xmap <- data.frame(xdate = all_days, yday = rep(1:7, n_future_years))
-  xmap <- xmap[xmap$xdate <= max(index(daily)) & xmap$xdate >= min(index(daily)),]
   daily_df <- data.frame(xdate = as.Date(index(daily)), daily)
+  xmap <- xmap[xmap$xdate <= max(daily_df$xdate) & xmap$xdate >= min(daily_df$xdate),]
+
   
   master <- merge(xmap, daily_df, all.x = TRUE)
   master[is.na(master)] <- 0
@@ -92,14 +93,14 @@ to_weekly = function(daily, days_in_week = 5,
   return(rets)
 }
 
-rf_dly = readxl::read_excel("./risk-free 202010 output.xlsx")
+rf_dly = readxl::read_excel("./sandbox/Vestcor Data Cleaning/risk-free 202010 output.xlsx")
 rf_dly = xts::xts(rf_dly[3], order.by = rf_dly$CALDT)
 head(rf_dly, 10)
 
-rf_mly1 = to_monthly(rf_dly)
-head(rf_mly1)
-rf_mly2 = to_monthly(rf_dly, index_last=FALSE)
-head(rf_mly2)
+# rf_mly1 = to_monthly(rf_dly)
+# head(rf_mly1)
+# rf_mly2 = to_monthly(rf_dly, index_last=FALSE)
+# head(rf_mly2)
 
 rf_wly1 = to_weekly(rf_dly, week_ending_day_str='Friday')
 head(rf_wly1)
