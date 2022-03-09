@@ -1,0 +1,79 @@
+---
+title: "FactorAnalytics Data Set Substitutions"
+author: "Jon Spinney"
+date: "3/9/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cleaning up the sectors
+
+The current *factorsSPGMI* dataset has certain securities have Sectors that are misspelled or otherwise incorrect that needs to be cleaned up.
+
+Once this issue is dealt with, the remaining issue is that there are a few securities in the data set that are in undesirable sectors and should be replaced with different securities.
+
+```{r}
+load("~/R-Work/FactorAnalytics/data/factorsSPGMI.rda")
+unique(factorsSPGMI$Sector) # misspelled or duplicated sectors
+```
+
+For this document I'll create a copy of the *factorsSPGMI* data set and save it as *factorsSPGMIVestcor* for doing the work:
+
+```{r}
+factorsSPGMIvestcor <- factorsSPGMI
+```
+
+
+Now clean up the mislabeled sectors:
+
+```{r}
+# clean up list of sectors
+bad_sectors <- unique(factorsSPGMIvestcor$Sector)
+good_sectors <- c("InfoTech","Industrials","Healthcare","ConsumStap","Energy",
+                 "Materials","ConsumDisc","ComServices","Utilities","RealEstate",
+                 "Healthcare","Financials","ConsumDisc","InfoTech","ConsumStap",
+                 "ComServices")
+sector_table <- data.frame(cbind(bad_sectors,good_sectors))
+colnames(sector_table) <- c("BadSectors","GoodSectors")
+factorsSPGMIvestcor$Sector <- sector_table$GoodSectors[match(factorsSPGMIvestcor$Sector,sector_table$BadSectors)]
+
+# check - should be 11 unique sectors with correct names as per FAdataCRSPandSPGMI 02 23 22.pdf
+unique(factorsSPGMIvestcor$Sector)
+```
+
+We can compare the percent of tickers in each sector in our data set vs the percent breakdown of the MSCI USA Index as a representative sample to see if it's unbalanced (it's not):
+
+```{r}
+sector_memb <- factorsSPGMIvestcor[,c("TickerLast","Sector")]
+counts <- aggregate(data = sector_memb,
+                    TickerLast ~ Sector,
+                    function(x) length(unique(x)))
+counts$Pcts <- counts$TickerLast/sum(counts$TickerLast)
+counts$MktPcts <- c(.065, .108, .052, .031, .137, .129, .132, .183, .049, .059, .051)
+counts$Diff <- counts$Pcts - counts$MktPcts
+counts
+```
+
+The sample is reasonably balanced , although with a few too many industrials compared to the market.
+
+The data set includes four Financials and RealEstate companies that should be removed:
+
+```{r}
+(to_remove <- unique(factorsSPGMIvestcor[factorsSPGMIvestcor$Sector %in% c("Financials","RealEstate"),]$TickerLast))
+```
+
+As replacements, we have the following 10 securities:
+
+```{r}
+library(data.table)
+adds <- data.table(cbind(c("CHDN","CCF","SEE","LCII","SCL","PNR","AME","GEF","DOW","VFC"),
+                         c("ConsumDisc","Materials","Materials","ConsumDisc","Materials",
+                           "Undustrials","Industrials","Materials","Materials","ConsumDisc")))
+colnames(adds) <- c("Ticker","Sector")
+adds
+```
+
+In general the available adds are all in sectors the data set is already well represented in, so there are no major issues in that regard to be rebalanced. Considering market cap, Dow Chemical would likely be Large Cap, LCII and PNR would be near midcaps, and CCF would be a smallcap, so if we added those we would gain 2 Materials, 1 Industrial, and 1 Consumer Discretionary while adding to each market cap group.
