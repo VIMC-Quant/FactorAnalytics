@@ -1,7 +1,5 @@
-libs <- c("DBI", "odbc", 'dplyr', 'plotly', 'lubridate')
-lapply(libs,function(x){library(x,character.only=TRUE)})
-
-rm(list=ls())
+libs <- c("DBI", "odbc", 'dplyr', 'plotly')
+lapply(libs, function(x) library(x,character.only=TRUE))
 
 conn <- dbConnect(odbc(), DSN="CAPITAL-IQ",
                   database = "QIAR_DB",
@@ -9,65 +7,66 @@ conn <- dbConnect(odbc(), DSN="CAPITAL-IQ",
                   pwd = "November2019*",
                   port = 1433)
 
-#last day of month dates between '1993-01-01' and '2015-12-31'
-dates <- read.csv('dates.csv')
-dates <- as.Date(dates[,2],"%m/%d/%Y")
+# Identify US common stock down to 10 million USD in market cap
 
-# Get the market cap of every stock in the u.s. common stock universe in USD down to $10 million dollars
-
-query <- "select distinct eomonth(c.pricingDate) as pricingDate, t.tickerSymbol, mc.marketCap*1000000 as marketCap
-from (
-	SELECT c.companyName, mc.companyId, year(mc.pricingDate) yy, month(mc.pricingDate) mm, max(mc.pricingDate) pricingDate
-	FROM Xpressfeed.dbo.ciqCompany c
-	join Xpressfeed.dbo.ciqMarketCap mc on c.companyId = mc.companyId
-	and mc.pricingDate between '1993-01-01' and '2015-12-31'
-	WHERE c.countryId = 213 -- USA
-	group by c.companyName, mc.companyId, year(mc.pricingDate) , month(mc.pricingDate)
+query <- "SELECT distinct eomonth(mc.pricingDate) as datadate, c.companyId as id1, ti.tickerSymbol as id2, mc.marketCap*1000000 as Capt
+FROM (
+	select mc.companyId, year(mc.pricingDate) yy, month(mc.pricingDate) mm, max(pricingDate) pricingDate
+	from Xpressfeed.dbo.ciqMarketCap mc
+	join Xpressfeed.dbo.ciqCompany c on mc.companyId=c.companyId
+	where mc.marketCap between 10 and 100000 and mc.pricingDate between '1993-01-01' and '1996-11-30'
+	and c.countryId=213 --USA
+	and c.companyTypeId=4 --Public Company
+	group by mc.companyId, year(mc.pricingDate), month(mc.pricingDate)
 ) c
-join Xpressfeed.dbo.ciqMarketCap mc on c.companyId = mc.companyId and c.pricingDate = mc.pricingDate
-join xpressfeed.dbo.ciqSecurity se on c.companyId = se.companyId
-and mc.pricingDate between isnull(se.securityStartDate, '1900-01-01') and isnull(se.securityEndDate, '2029-01-01')
-and se.securitySubTypeId = 1 -- Common Stock
-and se.primaryFlag = 1 -- Primary Listing
-join xpressfeed.dbo.ciqTradingItem t on se.securityid = t.securityId and t.currencyId = 160 -- USD
-and t.primaryFlag = 1
-WHERE mc.marketCap>=10 -- 10 million"
-
+join Xpressfeed.dbo.ciqMarketCap mc on c.companyId=mc.companyId and c.pricingDate = mc.pricingDate
+join Xpressfeed.dbo.ciqSecurity s on mc.companyId=s.companyId
+and mc.pricingDate between isnull(s.securityStartDate, '1900-01-01') and isnull(s.securityEndDate, '2029-01-01')
+join Xpressfeed.dbo.ciqTradingItem ti on s.securityId=ti.securityId
+where s.securitySubTypeId = 1 --Common Stock
+and s.primaryFlag=1 --Specifies the primary security
+and ti.currencyId=160 --USD
+and ti.primaryFlag=1 --Specifies the primary trading item for each security"
 r <- dbGetQuery(conn,query)
+  
+data_qry <- "SELECT datadate, cap.Barrid as id1, ID.AssetID as id2, Capt
+  FROM [QIAR_DB].[dbo].[msci_MonthlyAssetPrice] cap
+  JOIN [QIAR_DB].[dbo].[msci_AssetIdentity] ide on cap.Barrid=ide.Barrid
+  and cap.DataDate between ide.StartDate and ide.EndDate
+  JOIN [QIAR_DB].[dbo].[msci_AssetID] id on cap.Model=id.Model and cap.Barrid=id.Barrid 
+  and cap.DataDate between id.StartDate and id.EndDate
+  WHERE cap.model = 'GEMLT' and ide.model='GEMLTESG' and ide.Instrument='STOCK' and ide.ISOCountryCode='USA' and ide.ISOCurrencyCode='USD'
+  and Capt >= 10000000 and id.AssetIDType='SEDOL'"
+uData <- dbGetQuery(conn, data_qry)
+
+r <- rbind(r,uData)
 
 #Plot universe size by date
-#cnts <- count(r,pricingDate)
-#plot_ly(cnts, x=~pricingDate, y=~n) %>% layout(title='Universe Size by Date')
+# cnts <- count(r,datadate)
+# plot_ly(cnts, x=~datadate, y=~n) %>% layout(title='Universe Size by Date')
 
+dates <- sort(unique(r$datadate))
 pFlags <- do.call(rbind, lapply(dates, function(d) {
-  #filter by date (year and month)
-  r2 = r[which(r$pricingDate==d),]
+  #order by marketCap descending, calculate the cumulative sum
+  mkt_df <- r %>% 
+    filter(datadate == d) %>% 
+    arrange(desc(Capt)) %>% 
+    mutate(CumCapt = cumsum(Capt)) %>% 
+    mutate(CaptPct = CumCapt/sum(Capt)) %>% 
+    mutate(CaptFlag = "")
   
-  # Order by marketCap DESCENDING
-  r2 = r2[order(r2$marketCap,decreasing=TRUE),]
+  #find the marketCap at which 70%, 85%, and 98% are reached
+  mkt_df$CaptFlag[max(which(mkt_df$CaptPct<=0.7))] <- "70thPCT"
+  mkt_df$CaptFlag[max(which(mkt_df$CaptPct<=0.85))] <- "85thPCT"
+  mkt_df$CaptFlag[max(which(mkt_df$CaptPct<=0.98))] <- "98thPCT"
   
-  # Calculate the cumulative sum of marketCap at each date
-  r2 <- cbind(r2,cumulativeCap=cumsum(r2$marketCap))
-  
-  # Calculate the total marketCap of the universe
-  total = sum(r2$marketCap)
-  
-  if(nrow(r2)>0) {
-    # Save at date d
-    df <- data.frame(pricingDate=d, MktCap=r2$marketCap, CumulativeCap=r2$cumulativeCap, MktCapPercent=r2$cumulativeCap/total*100)
-    
-    # Find the marketCap at which you reach 70%, 85%, and 98% coverage of the universe
-    first = max(which(df$MktCapPercent<=70))
-    second = max(which(df$MktCapPercent<=85))
-    third = max(which(df$MktCapPercent<=98))
-    
-    df <- cbind(df,PercentileFlag=NA)
-    df$PercentileFlag[first] <- "70% level is here"
-    df$PercentileFlag[second] <- "85% level is here"
-    df$PercentileFlag[third] <- "98% level is here"
-    
-    return(df)
-  }
+  return(mkt_df)
 }))
+
+flag <- pFlags %>%
+  filter(CaptFlag!="") %>%
+  select(datadate, Capt, CumCapt, CaptFlag)
+
+plot_ly(flag, x=~datadate, y=~Capt, color=~CaptFlag, type = 'scatter', mode = 'lines')
 
 write.csv(pFlags, 'percentileFlags.csv', row.names = FALSE)
