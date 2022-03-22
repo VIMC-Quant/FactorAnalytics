@@ -118,6 +118,11 @@ factorsSPGMI_tmp <- factorsSPGMI_tmp[,c("Date","TickerLast","Ticker","Company",
                                         "EBITDAEV","FCFP","PM1M","SEV")]
 
 ################################################################################
-### save data
+### save tmp data
 save(factorsSPGMI_tmp, file = "factorsSPGMI_tmp.rda")
 save(stocksCRSP_tmp, file = "stocksCRSP_tmp.rda")
+
+### save actual data
+#setwd("~/R-Work/FactorAnalytics/data") # spinney local directory
+save(factorsSPGMI_tmp, file = "factorsSPGMI.rda")
+save(stocksCRSP_tmp, file = "stocksCRSP.rda")
