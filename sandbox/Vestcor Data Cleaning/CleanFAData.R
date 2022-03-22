@@ -52,39 +52,43 @@ stocksCRSP_tmp$Sector <- sector_table$GoodSectors[match(stocksCRSP_tmp$Sector,
 # FAdataCRSPandSPGMI 02 23 22.pdf
 unique(stocksCRSP_tmp$Sector)
 
+# same securities confirmed in both stocksCRSP and factorsSPGMI
 (to_remove <- unique(factorsSPGMI_tmp[factorsSPGMI_tmp$Sector 
                                          %in% 
                                      c("Financials","RealEstate"),]$TickerLast))
 
 # candidates to add
-library(data.table)
-adds <- data.table(cbind(c("CHDN","CCF","SEE","LCII","SCL","PNR","AME","GEF",
-                           "DOW","VFC"),
-                         c("ConsumDisc","Materials","Materials","ConsumDisc",
-                           "Materials","Undustrials","Industrials","Materials",
-                           "Materials","ConsumDisc")))
-colnames(adds) <- c("Ticker","Sector")
-(adds)
-
-to_add <- c("DOW","LCII","PNR","CCF")
+# library(data.table)
+# adds <- data.table(cbind(c("CHDN","CCF","SEE","LCII","SCL","PNR","AME","GEF",
+#                            "DOW","VFC"),
+#                          c("ConsumDisc","Materials","Materials","ConsumDisc",
+#                            "Materials","Undustrials","Industrials","Materials",
+#                            "Materials","ConsumDisc")))
+# colnames(adds) <- c("Ticker","Sector")
+# (adds)
+# 
+# to_add <- c("DOW","LCII","PNR","CCF")
 
 ################################################################################
 ### revise data set membership (replace 4 stocks)
 # replace in "factorsSPGMI to start. daily/weekly data sets to be modified later
 
-# check membership
-sector_memb <- factorsSPGMI_tmp[,c("TickerLast","Sector")]
-counts <- aggregate(data = sector_memb,
-                    TickerLast ~ Sector,
-                    function(x) length(unique(x)))
-counts$Pcts <- counts$TickerLast/sum(counts$TickerLast)
-# compare against percents drawn from U.S. equity universe data
-counts$MktPcts <- c(.065, .108, .052, .031, .137, .129, .132, .183, .049,
-                    .059, .051)
-counts$Diff <- counts$Pcts - counts$MktPcts
-counts # 3 financials, 1 RealEstate to be removed. 
+# # check membership
+# sector_memb <- factorsSPGMI_tmp[,c("TickerLast","Sector")]
+# counts <- aggregate(data = sector_memb,
+#                     TickerLast ~ Sector,
+#                     function(x) length(unique(x)))
+# counts$Pcts <- counts$TickerLast/sum(counts$TickerLast)
+# # compare against percents drawn from U.S. equity universe data to check
+# # distribution of sector membership of factorsSPGMI vs broad market
+# counts$MktPcts <- c(.065, .108, .052, .031, .137, .129, .132, .183, .049,
+#                     .059, .051)
+# counts$Diff <- counts$Pcts - counts$MktPcts
+# counts # 3 financials, 1 RealEstate to be removed. 
 
-# tbc
+# for now, delete the four stocks - will add 4 new ones later
+stocksCRSP_tmp <- stocksCRSP_tmp[!(stocksCRSP_tmp$TickerLast %in% to_remove),]
+factorsSPGMI_tmp <- factorsSPGMI_tmp[!(factorsSPGMI_tmp$TickerLast %in% to_remove),]
 
 ################################################################################
 ### market cap groups
@@ -116,3 +120,4 @@ factorsSPGMI_tmp <- factorsSPGMI_tmp[,c("Date","TickerLast","Ticker","Company",
 ################################################################################
 ### save data
 save(factorsSPGMI_tmp, file = "factorsSPGMI_tmp.rda")
+save(stocksCRSP_tmp, file = "stocksCRSP_tmp.rda")
