@@ -124,5 +124,5 @@ save(stocksCRSP_tmp, file = "stocksCRSP_tmp.rda")
 
 ### save actual data
 #setwd("~/R-Work/FactorAnalytics/data") # spinney local directory
-save(factorsSPGMI_tmp, file = "factorsSPGMI.rda")
-save(stocksCRSP_tmp, file = "stocksCRSP.rda")
+save(factorsSPGMI_old, file = "factorsSPGMI_old.rda")
+save(stocksCRSP_old, file = "stocksCRSP_old.rda")
